@@ -1,3 +1,4 @@
+#!/bin/bash
 # check_domain - v2.0.0
 # Author: A. Stoyanov
 # GitHub: https://github.com/a-stoyanov/zabbix-domain-expiry
@@ -47,7 +48,6 @@
 #   - Debug output is enabled with -z and sent to stderr.
 #   - Temporary files are cleaned up on exit.
 
-#!/bin/sh
 set -e
 exec 2>&1
 
